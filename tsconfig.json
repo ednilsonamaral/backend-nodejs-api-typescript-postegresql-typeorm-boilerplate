@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig-base.json",
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests",
+    "docs",
+    "commitlint.config.js",
+    "vitest.config.ts",
+    "coverage"
+  ],
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
