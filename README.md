@@ -36,3 +36,19 @@ The folder structure must follow the pattern:
 --------- user // DTOs, Use Cases and Controller from User
 --------- index.ts // The main controller. We need to import all controllers here
 ```
+
+
+## To Do List
+
+- [x] Initial readme
+- [ ] update readme with folder structure
+- [ ] husky, with commit examples and "locker"
+- [ ] docs with commit conventional
+- [ ] swagger
+- [ ] vitest
+- [ ] unit tests
+- [ ] crud admin
+- [ ] crud auth
+- [ ] auth middleware
+- [ ] auth routes
+- [ ] crud user
